@@ -7,7 +7,7 @@ import pandas as pd
 from pyspark.sql.functions import current_date
 
 # Create a Spark session
-spark = SparkSession.builder.getOrCreate()
+spark = SparkSession.builder.master("yarn").getOrCreate()
 
 # read the training file into a dataframe from S3 bucket
 s3_path = "s3://my-sales-data-storage/Sales.csv"
@@ -122,7 +122,7 @@ results.createOrReplaceTempView('new_forecasts')
 jdbc_url = "jdbc:redshift://default-workgroup.572561648008.ap-south-1.redshift-serverless.amazonaws.com:5439/sales-forecast"
 jdbc_properties = {
     "user": "admin",
-    "password": "Akash2s#S",
+    "password": "Input Your Password",
     "driver": "com.amazon.redshift.jdbc.Driver"
 }
 results.write \
