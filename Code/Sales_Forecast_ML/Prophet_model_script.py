@@ -10,7 +10,7 @@ from pyspark.sql.functions import current_date
 spark = SparkSession.builder.getOrCreate()
 
 # read the training file into a dataframe from S3 bucket
-s3_path = "s3://your-bucket/train.csv"
+s3_path = "s3://my-sales-data-storage/Sales.csv"
 train_schema = StructType([
     StructField('date', DateType()),
     StructField('store', IntegerType()),
