@@ -29,8 +29,7 @@ I'm a Data Engineer with good hands-on experience leveraging data and business p
 This project uses the sales data which is into the
 S3 bucket to upload into MySQL database using AWS RDS service for supporting web application and then using EMR services it running the migrated spark script from on-prem for predicting the future sales. all the data will be finally loaded into the Redshift, for Visualisation Quicksight is used.
 
-## Architecture 
-[![Github repo](https://github.com/Akash54-AS/Sales_Forecasting_For_Demand_Analysis_In_AWS/blob/Dev/Images/Architecture.png)](https://github.com/Akash54-AS)
+
 
 
 ## Business Scenario
@@ -45,3 +44,8 @@ The mid-size company wants to migrate the whole infrastructure to the cloud and 
 ✅ Finally, they want to create a dashboard based on forecasted data for analysis so they can make a better business decision, which will indirectly lead to an increase in revenue for the company.
 
 ## Solution
+Data will be sent daily from a source to the S3 bucket, Then Daily Glue ETL job will run to capture newly arrived data in order to put the data in the RDS Database which will satisfy our requirement of using a relation database for running a web application on top of it as RDS Database is a managed relational database service. We have a machine learning job in Spark and we do not want to rewrite the whole script to minimize the cost, So we'll be using AWS EMR service which is an AWS Managed service for running Hadoop, Spark, and other big data applications in AWS without changing anything and forecasted data will be sent to Redshift Database which is an analytical warehouse and then we can create dashboards using Quicksights.
+
+For a better understanding, you can also refer to the below architecture.
+## Architecture 
+[![Github repo](https://github.com/Akash54-AS/Sales_Forecasting_For_Demand_Analysis_In_AWS/blob/Dev/Images/Architecture.png)](https://github.com/Akash54-AS)
