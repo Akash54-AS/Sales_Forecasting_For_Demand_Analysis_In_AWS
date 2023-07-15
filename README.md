@@ -29,8 +29,13 @@ I'm a Data Engineer with good hands-on experience leveraging data and business p
 This project uses the sales data which is into the
 S3 bucket to upload into MySQL database using AWS RDS service for supporting web application and then using EMR services it running the migrated spark script from on-prem for predicting the future sales. all the data will be finally loaded into the Redshift, for Visualisation Quicksight is used.
 
-### Architecture 
+## Architecture 
 [![Github repo](https://github.com/Akash54-AS/Sales_Forecasting_For_Demand_Analysis_In_AWS/blob/Dev/Images/Architecture.png)](https://github.com/Akash54-AS)
 
 
-## Business Senario
+## Business Scenario
+The mid-size company wants to migrate the whole infrastructure to the cloud and it has been decided to use AWS cloud as most of the employees are comfortable working with AWS. The company has various data and jobs that they want to migrate to the cloud but in this scenario, we are only considering sales data. But due to complience and security issues, we still want to have an on-premise data center and daily new data will be sent to AWS into the S3 bucket.
+
+### Business Requirement
+
+✅ 
