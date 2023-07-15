@@ -1,6 +1,6 @@
 from pyspark.sql.types import DateType, FloatType, IntegerType, StructField, StructType
 from pyspark.sql import SparkSession
-from pyspark.context import SparkContext
+from pyspark.context import SparkContext as sc 
 from fbprophet import Prophet
 import logging
 import pandas as pd
