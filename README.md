@@ -28,4 +28,4 @@ This project uses the sales data which is into the
 S3 bucket to upload into MySQL database using AWS RDS service for supporting web application and then using EMR services it running the migrated spark script from on-prem for predicting the future sales. all the data will be finally loaded into the Redshift, for Visualisation Quicksight is used.
 
 ### Architecture 
-[![Github repo](https://github.com/Akash54-AS/Akash54-AS/blob/main/GitHub-Mark-Light-32px.png)](https://github.com/Akash54-AS)
+[![Github repo](Images/Architecture.png](https://github.com/Akash54-AS)
