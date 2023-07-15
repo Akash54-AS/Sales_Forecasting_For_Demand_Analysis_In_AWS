@@ -2,20 +2,22 @@
 
 
 ## 🚀 About Me
-I'm a final year student at NITK, and I am interested in Big data, Machine learning and AI, Blockchain, Web development, and Robotics. I love doing projects that solve potential problems in the real world. If you have such exciting projects and want me to the part of them, I am happy to join you aboard.
+I'm a Data Engineer with good hands-on experience leveraging data and business principles to solve large-scale data infrastructure problems. I am very fascinated by Data Science, AI, Blockchain, and Robotics. If you have such exciting projects and want me to the part of them, I am happy to join you aboard.
 
 
 
 ## 🛠 Skills
-🐍Python
 
-💻C++
+💻 Programming Languages: C, C++, Python, SQL, Unix Shell Scripting
 
-🌐MYSQL
+⛅ Clouds: Google Cloud Platform (GCP), Microsoft Azure, Amazon Web Services (AWS)
 
-🤖Machine Learning
+🌐 Big Data: Hadoop, Spark, Docker, Airflow, Snowflake, NiFi, ETL, Data Science, Data Modeling, Data Analytics, Distributed Systems, Data Quality, Data Engineering, and Data Solutions.
 
-🖥MATLAB
+📙 IT Constructs Machine Learning, Data Structures, and Algorithms, DBMS, Operating Systems.
+
+📱Software: Git, Jira, Bitbucket, Confluence, VS Code.
+
 
 
 ## 🔗 Links
@@ -29,3 +31,6 @@ S3 bucket to upload into MySQL database using AWS RDS service for supporting web
 
 ### Architecture 
 [![Github repo](https://github.com/Akash54-AS/Sales_Forecasting_For_Demand_Analysis_In_AWS/blob/Dev/Images/Architecture.png)](https://github.com/Akash54-AS)
+
+
+## Business Senario
