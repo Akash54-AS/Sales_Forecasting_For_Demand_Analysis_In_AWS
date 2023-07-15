@@ -14,7 +14,7 @@ I'm a Data Engineer with good hands-on experience leveraging data and business p
 
 🌐 Big Data: Hadoop, Spark, Docker, Airflow, Snowflake, NiFi, ETL, Data Science, Data Modeling, Data Analytics, Distributed Systems, Data Quality, Data Engineering, and Data Solutions.
 
-📙 IT Constructs Machine Learning, Data Structures, and Algorithms, DBMS, Operating Systems.
+📙 IT Constructs: Machine Learning, Data Structures, and Algorithms, DBMS, Operating Systems.
 
 📱Software: Git, Jira, Bitbucket, Confluence, VS Code.
 
