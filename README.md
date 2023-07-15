@@ -34,8 +34,14 @@ S3 bucket to upload into MySQL database using AWS RDS service for supporting web
 
 
 ## Business Scenario
-The mid-size company wants to migrate the whole infrastructure to the cloud and it has been decided to use AWS cloud as most of the employees are comfortable working with AWS. The company has various data and jobs that they want to migrate to the cloud but in this scenario, we are only considering sales data. But due to complience and security issues, we still want to have an on-premise data center and daily new data will be sent to AWS into the S3 bucket.
+The mid-size company wants to migrate the whole infrastructure to the cloud and it has been decided to use AWS cloud as most of the employees are comfortable working with AWS. The company has various data and jobs that they want to migrate to the cloud but in this scenario, we are only considering sales data. But due to complience and security issues, we still want to have an on-premise data center and daily new data will be sent to AWS. We have to perform migration in such a way that all the business requirements mentioned below should be satisfied with less cost and with the highest optimization possible.
 
 ### Business Requirement
 
-✅ 
+✅ Company wants to store sales data in the relational database for running web applications on top of the system. Relational databases can help in supporting high reads and write which will be a feasible solution for supporting web applications.
+
+✅ Company has a machine learning model which is written in the spark to forecast future demand which helps the company to manage their inventory beforehand. They want to migrate this job while keeping costs as minimum as possible and also want to use AWS-managed service to remove the need of managing servers.
+
+✅ Finally, they want to create a dashboard based on forecasted data for analysis so they can make a better business decision, which will indirectly lead to an increase in revenue for the company.
+
+## Solution
